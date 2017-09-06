@@ -1,0 +1,34 @@
+exif-utils.lo: exif-utils.c ../config.h ../libexif/exif-utils.h \
+ ../libexif/exif-byte-order.h ../libexif/exif-format.h \
+ ../libexif/_stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h
+
+../config.h:
+
+../libexif/exif-utils.h:
+
+../libexif/exif-byte-order.h:
+
+../libexif/exif-format.h:
+
+../libexif/_stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:

@@ -1,0 +1,130 @@
+mnote-canon-tag.lo: canon/mnote-canon-tag.c ../config.h \
+ canon/mnote-canon-tag.h ../libexif/exif-data.h \
+ ../libexif/exif-byte-order.h ../libexif/exif-data-type.h \
+ ../libexif/exif-ifd.h ../libexif/exif-log.h ../libexif/exif-mem.h \
+ ../libexif/exif-utils.h ../libexif/exif-format.h ../libexif/_stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h \
+ ../libexif/exif-tag.h ../libexif/exif-content.h ../libexif/exif-entry.h \
+ ../libexif/exif-mnote-data.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h \
+ ../libexif/i18n.h \
+ /home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/libintl.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/locale.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_locale.h
+
+../config.h:
+
+canon/mnote-canon-tag.h:
+
+../libexif/exif-data.h:
+
+../libexif/exif-byte-order.h:
+
+../libexif/exif-data-type.h:
+
+../libexif/exif-ifd.h:
+
+../libexif/exif-log.h:
+
+../libexif/exif-mem.h:
+
+../libexif/exif-utils.h:
+
+../libexif/exif-format.h:
+
+../libexif/_stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h:
+
+../libexif/exif-tag.h:
+
+../libexif/exif-content.h:
+
+../libexif/exif-entry.h:
+
+../libexif/exif-mnote-data.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h:
+
+../libexif/i18n.h:
+
+/home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/libintl.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/locale.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_locale.h:

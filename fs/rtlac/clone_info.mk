@@ -1,0 +1,1 @@
+clones/a2004sr/clone_info.mk

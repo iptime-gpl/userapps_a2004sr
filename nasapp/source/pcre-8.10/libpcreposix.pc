@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/rtlac/userapps/nasapp/rootfs/root.5281.3465
+exec_prefix=/home/rtlac/userapps/nasapp/rootfs/root.5281.3465
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcreposix
+Description: PCREPosix - Posix compatible interface to libpcre
+Version: 8.10
+Libs: -L${libdir} -lpcreposix
+Cflags: -I${includedir} 
+Requires.private: libpcre

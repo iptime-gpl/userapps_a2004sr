@@ -1,0 +1,258 @@
+xsystem.lo: xsystem.c \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/wait.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/signal.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/signum.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/siginfo.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigaction.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigcontext.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sgidefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigstack.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigthread.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/resource.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/resource.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/waitflags.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/waitstatus.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/unistd.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix_opt.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/confname.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/getopt.h \
+ xsystem.h ../libbb/libbb.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdio.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_stdio.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/wchar.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_mutex.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/pthread.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sched.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_clk_tck.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/initspin.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_pthread.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/stdio_lim.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/stat.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/stat.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/netdb.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/netinet/in.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/socket.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/uio.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uio.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/socket.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/limits.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/limits.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix1_lim.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/local_lim.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/limits.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_local_lim.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix2_lim.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sockaddr.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/socket.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/sockios.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/ioctl.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/ioctl.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/in.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/rpc/netdb.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/netdb.h \
+ ../libbb/../libopkg/opkg_message.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/errno.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/errno.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/errno.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/errno.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/errno-base.h
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/wait.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/signal.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/signum.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/siginfo.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigaction.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigcontext.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sgidefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigstack.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigthread.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/resource.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/resource.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/waitflags.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/waitstatus.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/unistd.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix_opt.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/confname.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/getopt.h:
+
+xsystem.h:
+
+../libbb/libbb.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdio.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_stdio.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/wchar.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_mutex.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/pthread.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sched.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_clk_tck.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/initspin.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_pthread.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stdarg.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/stdio_lim.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/stat.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/stat.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/netdb.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/netinet/in.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/socket.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/uio.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uio.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/socket.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/limits.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/limits.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix1_lim.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/local_lim.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/limits.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_local_lim.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/posix2_lim.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sockaddr.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/socket.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/sockios.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/ioctl.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/ioctl.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/in.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/rpc/netdb.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/netdb.h:
+
+../libbb/../libopkg/opkg_message.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/errno.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/errno.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/linux/errno.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm/errno.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/asm-generic/errno-base.h:

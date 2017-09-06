@@ -1,0 +1,200 @@
+vorbisenc.lo: vorbisenc.c \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/math.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_val.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_valf.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_vall.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/inf.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/nan.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/mathdef.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sgidefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/mathcalls.h \
+ ../include/vorbis/codec.h \
+ /home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/ogg.h \
+ /home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/os_types.h \
+ /home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/config_types.h \
+ ../include/vorbis/vorbisenc.h ../include/vorbis/codec.h codec_internal.h \
+ envelope.h mdct.h codebook.h psy.h smallft.h backends.h bitrate.h os.h \
+ ../config.h misc.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/memory.h \
+ highlevel.h modes/setup_44.h modes/floor_all.h backends.h \
+ books/floor/floor_books.h codebook.h modes/residue_44.h \
+ books/coupled/res_books_stereo.h modes/psych_44.h modes/setup_44u.h \
+ modes/residue_44u.h books/uncoupled/res_books_uncoupled.h \
+ modes/setup_32.h modes/setup_8.h modes/psych_8.h modes/residue_8.h \
+ modes/setup_11.h modes/psych_11.h modes/setup_16.h modes/psych_16.h \
+ modes/residue_16.h modes/setup_22.h modes/setup_X.h
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdlib.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/kernel_types.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/typesizes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/pthreadtypes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sched.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/endian.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/byteswap.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/select.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/sigset.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/time.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/sysmacros.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/alloca.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/string.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/math.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_val.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_valf.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/huge_vall.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/inf.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/nan.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/mathdef.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sgidefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/mathcalls.h:
+
+../include/vorbis/codec.h:
+
+/home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/ogg.h:
+
+/home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/os_types.h:
+
+/home/rtlac/userapps/nasapp/rootfs/root.5281.3465/include/ogg/config_types.h:
+
+../include/vorbis/vorbisenc.h:
+
+../include/vorbis/codec.h:
+
+codec_internal.h:
+
+envelope.h:
+
+mdct.h:
+
+codebook.h:
+
+psy.h:
+
+smallft.h:
+
+backends.h:
+
+bitrate.h:
+
+os.h:
+
+../config.h:
+
+misc.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/memory.h:
+
+highlevel.h:
+
+modes/setup_44.h:
+
+modes/floor_all.h:
+
+backends.h:
+
+books/floor/floor_books.h:
+
+codebook.h:
+
+modes/residue_44.h:
+
+books/coupled/res_books_stereo.h:
+
+modes/psych_44.h:
+
+modes/setup_44u.h:
+
+modes/residue_44u.h:
+
+books/uncoupled/res_books_uncoupled.h:
+
+modes/setup_32.h:
+
+modes/setup_8.h:
+
+modes/psych_8.h:
+
+modes/residue_8.h:
+
+modes/setup_11.h:
+
+modes/psych_11.h:
+
+modes/setup_16.h:
+
+modes/psych_16.h:
+
+modes/residue_16.h:
+
+modes/setup_22.h:
+
+modes/setup_X.h:

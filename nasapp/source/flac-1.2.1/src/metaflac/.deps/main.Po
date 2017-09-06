@@ -1,0 +1,51 @@
+main.o: main.c ../../config.h operations.h options.h \
+ ../../include/FLAC/format.h ../../include/FLAC/export.h \
+ ../../include/FLAC/ordinals.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/inttypes.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h \
+ ../../include/share/getopt.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/locale.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h \
+ /home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_locale.h
+
+../../config.h:
+
+operations.h:
+
+options.h:
+
+../../include/FLAC/format.h:
+
+../../include/FLAC/export.h:
+
+../../include/FLAC/ordinals.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/inttypes.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_config.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_arch_features.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/sys/cdefs.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/stdint.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wchar.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/wordsize.h:
+
+../../include/share/getopt.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/locale.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/gcc/stddef.h:
+
+/home/rtlac/RTL3.4/rtl819x_3.4.6.4/toolchain/rsdk-1.5.5-5281-EB-2.6.30-0.9.30.3-110714/include/bits/uClibc_locale.h:

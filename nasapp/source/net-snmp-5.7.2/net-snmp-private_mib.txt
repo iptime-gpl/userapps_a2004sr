@@ -1,0 +1,22 @@
+1. define MIB
+2. check ODI by snmptranslate
+3. create C source code by mib2c
+
+snmptranslate -On IPTIME-ROUTER-MIB::routerInformation.0
+mib2c -c mib2c.scalar.conf -f routerInformation .1.3.6.1.4.1.12874.1.1.0
+
+snmptranslate -On IPTIME-ROUTER-MIB::routerInterface.0
+mib2c -c mib2c.iterate.conf -f routerInterface .1.3.6.1.4.1.12874.1.2.0
+
+snmptranslate -On IPTIME-ROUTER-MIB::routerAddressTbl.0
+mib2c -c mib2c.iterate.conf -f routerAddressTbl .1.3.6.1.4.1.12874.1.3.0
+
+snmptranslate -On IPTIME-ROUTER-MIB::routerWireless.0
+mib2c -c mib2c.iterate.conf -f routerWireless .1.3.6.1.4.1.12874.1.4.0
+
+snmptranslate -On IPTIME-ROUTER-MIB::routerSystem.0
+mib2c -c mib2c.scalar.conf -f routerSystem .1.3.6.1.4.1.12874.1.5.0
+
+
+
+
